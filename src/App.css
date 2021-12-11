@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&display=swap');
+
+
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #dfe4ea;
+}
+
+
+
+.box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+  background-color: #16a085;
+ 
+ 
+  border-radius: 10px;
+}
+
+.inputData{
+ top:6rem;
+  border:none;
+  position: absolute;
+}
+
+.inputData .inputSearch{
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.info{
+  position: absolute;
+  bottom: 70px;
+  width: 500px;
+  height: 45%;
+  z-index: 4;
+}
+
+.location{
+  margin: top 1.5em;
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+  opacity: 0.7;
+}
+
+.fa-street-view{
+  animation: moves 3s linear infinite alternate;
+}
+
+@keyframes moves{
+  from{ transform: translate(-10px); }
+  to{ transform: translate( 10px); }
+}
+
+.temp{
+  position: absolute;
+  left: 180px;
+  padding-top: 20px;
+}
+
+.Temperature_max{
+  position: absolute;
+  left: 80px;
+  bottom: -25px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.card-header{
+  box-shadow: #16a085;
+}
+
+@media  (max-width: 992px) {
+    .weather-logo{
+        display: none;
+    }
+}
