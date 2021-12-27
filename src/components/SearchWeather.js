@@ -3,9 +3,9 @@ import React from "react";
 const SearchWeather = ({ city, setSearch, search }) => {
 	return (
 		<>
-			<section className=" py-2">
+			<section className="py-2 bg-white">
 				<div className="container">
-					<div className="row d-flex align-items-center justify-content-center shadow-lg p-4 my-5 bg-white  mb-6">
+					<div className="row d-flex align-items-center justify-content-center  my-5   mb-6">
 						<div className="col-md-6 weather-logo">
 							<img
 								src="images/Weather_Isometric.png"
@@ -13,13 +13,13 @@ const SearchWeather = ({ city, setSearch, search }) => {
 								alt="change_password"
 							/>
 						</div>
-						<div className="col-md-7 col-lg-5 col-xl-5">
+						<div className="col-md-7 col-lg-5 col-xl-5 col-12 ">
 							<div className="card-header">
 								<h2 className="mb-0" align="center">
 									Live Weather App
 								</h2>
 							</div>
-							<div className="card-body">
+							<div className="card-body  ">
 								<div className="box">
 									<div className="inputData">
 										<input
