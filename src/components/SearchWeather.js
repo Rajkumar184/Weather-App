@@ -3,9 +3,9 @@ import React from "react";
 const SearchWeather = ({ city, setSearch, search }) => {
 	return (
 		<>
-			<section className="py-2 bg-white">
+			<section className="py-2">
 				<div className="container">
-					<div className="row d-flex align-items-center justify-content-center  my-5   mb-6">
+					<div className="row d-flex align-items-center justify-content-center my-5 mb-6">
 						<div className="col-md-6 weather-logo">
 							<img
 								src="images/Weather_Isometric.png"
@@ -19,7 +19,7 @@ const SearchWeather = ({ city, setSearch, search }) => {
 									Live Weather App
 								</h2>
 							</div>
-							<div className="card-body  ">
+							<div className="card-body">
 								<div className="box">
 									<div className="inputData">
 										<input
